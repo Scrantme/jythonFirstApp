@@ -45,7 +45,7 @@ class JyTwitter(object):
 		self.frame.size = 400, 800
 
 	def timeline(self, username):
-		timeline = self.api.GetFriendsTimelin9username)
+		timeline = self.api.GetFriendsTimeline(username)
 		self.resultPanel = JPanel()
 		self.resultPanel.layout = BoxLayout(self.resultPanel, BoxLayout.Y_AXIS)
 		for si in timeline:
